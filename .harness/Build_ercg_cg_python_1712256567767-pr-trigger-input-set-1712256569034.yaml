@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_ercg_cg_python_1712256567767-pr-trigger-input-set
+  identifier: Build_ercg_cg_python_1712256567767prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_ercg_cg_python_1712256567767
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
